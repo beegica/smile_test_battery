@@ -1,0 +1,3 @@
+﻿After one second, two words will disappear and the fixation cross will change into an arrow pointing either up or down. When you see the arrow, please think about the word you just saw that was presented on the pointed direciton. For example, if the arrow points up, think about the word previously presented on the top. 
+
+As you think about the word, you also need to say the word out loud. You will have just over a second to make your response, so please do so as quickly as you can without sacrificing accuracy.

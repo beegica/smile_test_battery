@@ -1,0 +1,6 @@
+﻿We are now about to start the actual experiment. 
+
+The experiment will consist of a series of blocks of trials, each containing about 28 refresh trials. Again, in each trial you will see a pair of words. After each pair is presented, you will need to say the word out loud on the side the arrow points to. 
+
+After each block you will be given a short break; when you are ready to start the next block, hit any key.
+

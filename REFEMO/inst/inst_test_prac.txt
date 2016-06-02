@@ -1,0 +1,7 @@
+﻿You're almost done, but there is one more task we would like you to do: We want to see how well you remember the words that you saw during the refreshing task.
+
+In the next part of the experiment, we will present old words from the refreshing task along with new words that you did not see.  For each test image, please indicate whether you think it is an old word (i.e., one you saw earlier) or a new word (i.e., one you did not see in the refreshing task).  Please press "J" if you think the word is an old item or "K" if you think it's a new item.
+
+You will only have about a second to make your response, so please respond as quickly and accurately as possible before the next image comes up.
+
+If you have any questions, please ask the experimenter now.  Otherwise,press ENTER to begin a short practice memory test.

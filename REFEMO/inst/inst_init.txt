@@ -1,0 +1,3 @@
+﻿In the experiment, you will be performing a task called the "refreshing task" that measures how well you are able to keep information in your short-term memory.  There are three parts to the refreshing task.
+
+The task will start with a fixation cross in the middle of the screen. Please focus your attention on the cross. After about a second, two words will be shown on the screen, one on each side of the fixation cross.  When you see these words, try to commit them to memory.
