@@ -8,8 +8,8 @@ white box, do nothing. When you are ready to continue, press any key"""
 # Jitter used to create a 1 second plus (0 - 0.25) seconds
 JITTER = 0.25
 
-FONT_SIZE=30
+FONT_SIZE=50
 FIX_DUR = 1
 ISI = 1
-ON_STIM_DUR = .8
+ON_STIM_DUR = 100
 STIM_JITTER= .5

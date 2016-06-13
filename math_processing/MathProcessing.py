@@ -19,8 +19,9 @@ operators = ["+", "-"]
 numOfTrials = 50
 equations = []
 key_dic = ['J', 'K']
+FONT_SIZE = 50
 maxDuration = 4
-
+ISI = 0.5
 
 
 # Generates list of dictionaries containing an equation, the correct answer and the trial number
@@ -63,10 +64,12 @@ with UntilDone():
 
 # Presents the equation and logs the keypress made by the subject as well as the trial number, equation presented, the correct answer, the response, and the response rate
 with Loop(equations) as eq:
+    Label(text="+", duration=ISI,font_size=FONT_SIZE)
+    Wait(ISI)
     with Parallel():
-     	Label(text="Press j if greater than 5", font_size=30, bottom = exp.screen.bottom, left = exp.screen.left+ exp.screen.width/8)
-     	Label(text="Press k if less than 5", font_size=30, bottom = exp.screen.bottom, right = exp.screen.right - exp.screen.width/7)
-     	Label(text=eq.current['Equation'], font_size=30)
+     	Label(text="Press j if greater than 5", font_size=FONT_SIZE, bottom = exp.screen.bottom, left = exp.screen.left+ exp.screen.width/8)
+     	Label(text="Press k if less than 5", font_size=FONT_SIZE, bottom = exp.screen.bottom, right = exp.screen.right - exp.screen.width/7)
+     	Label(text=eq.current['Equation'], font_size=FONT_SIZE)
     with UntilDone():
          kp = KeyPress(keys = key_dic, duration = maxDuration, correct_resp = eq.current['Answer'])
 

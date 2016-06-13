@@ -13,9 +13,13 @@
 from smile.common import *
 import random
 
+exp = Experiment(background_color = 'black')
+
+
 #Global Variables
 NUM_OF_TRIALS = 40
-SIZE_OF_BOX = 20
+SIZE_OF_BOX = exp.screen.width*.03
+OFF_SET_PERCENT = .1
 
 @Subroutine
 def ProduceTarget(self,
@@ -79,9 +83,9 @@ for x in range(NUM_OF_TRIALS):
     left_right_list = []
     for x in range(NUM_OF_TRIALS):
         if(x % 2 == 0):
-            left_right_list.append(["F", -100, "J", 100])
+            left_right_list.append(["F", -exp.screen.width*OFF_SET_PERCENT, "J", exp.screen.width*OFF_SET_PERCENT])
         else:
-            left_right_list.append(["J", 100, "F", -100])
+            left_right_list.append(["J", exp.screen.width*OFF_SET_PERCENT, "F", -exp.screen.width*OFF_SET_PERCENT])
     random.shuffle(left_right_list)
 
     trial_dict.append({"target":color_list1,
@@ -93,7 +97,6 @@ for x in range(NUM_OF_TRIALS):
 
 
 
-exp = Experiment(background_color = 'black')
 
 
 
