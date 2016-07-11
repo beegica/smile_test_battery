@@ -21,6 +21,7 @@ techniques.
    match_to_sample
    math_processing
    matrix_rotation
+   oddball
    toav
 
 Fully Explained Examples
